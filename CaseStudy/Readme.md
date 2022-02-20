@@ -49,4 +49,27 @@ This is a brief description about the first case study which is Line following r
 
 ## REQUIREMENT MODELLING
 
+### HIGH LEVEL REQUIREMENTS
+
+* ID, Description of Test case, Input values, Expected Output, Actual Output</br>
+
+Table : High level test plan</br>
+
+|Test ID| Description| 
+|:------|:-----------|
+| H_01 | Robot should balance itself | 
+| H_02 | Robot should balance the payload on it and maintain the balance. |
+| H_03 | Robot must move without dropping the payload. | 
+| H_04 | Robot must move in all directions while maintaining the balance. |
+
+Table : Low level test plan</br>
+
+|Test ID| Description| 
+|:------|:-----------|
+|L_01| The robot when switched on must maintain balance without any payload over it and when disturbed it must regain back to it's initial position.|
+|L_02| When payload is applied the robot must maintain it's balance.|
+|L_03| When the payload is placed on the robot it must move without dropping the payload. |
+|L_04| The robot must move forward, reverse, left, right while maintaining the balance. |
+
+
 
