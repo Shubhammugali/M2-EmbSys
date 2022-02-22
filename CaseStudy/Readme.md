@@ -70,15 +70,15 @@ This is a brief description about the first case study which is Line following r
 |:------|:-----------|
 | H_01 | The sensor shall measure the distance between one another. | 
 | H_02 | The servo motor shall turn on if the distance is below the threshold range. |
-| H_03 | . |
+| H_03 | The servo motor shall turn off if the person is out of the threshold range. |
 
 Table : Low level test plan</br>
 
-|Test ID| Description| Input values| Expected Output|
-|:------|:-----------|:-------|:-------|
-|L_01|Checking if a 3X3 grid is drawn or not. This 3X3 grid is the basic need to play the game.|Player has to choose the symbol.| 3X3 graph is drawn.|
-|L_02|Play proceeds with the player or computer alternately placing their marks in any unoccupied cell. Check if player/computer got 3 of his symbols consecutively in vertical, horizontal or diagonal format.|'X' or 'O' input from the player/computer.| The player/computer won the game.|
-|L_03|Check if a total of 9 moves have been made player+computer, the game ends up in a draw when neither the user nor the computer is able to get 3 marks in a row.|9 inputs from (player+computer).|The game is over.|
+|Test ID| Description|
+|:------|:-----------|
+|L_01| The ultrasonic sensor is used to measure the distance and it is turned on using switch.|
+|L_02| Depending upon the distance if the person is within the threshold range the motor will turn on.|
+|L_03| If noone is within the range the motor will be in a turned off state.|
 
 
 
