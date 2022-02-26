@@ -29,4 +29,7 @@ Table : Low level Requirements</br>
 
 ![social distancing cap](https://user-images.githubusercontent.com/42488087/155828648-7b878f04-08e3-4f3b-b00c-0ba0ef16de6e.PNG)
 
+### SWOT ANALYSIS
 
+
+![swot analysis](https://user-images.githubusercontent.com/42488087/155829132-37898af4-6e0d-4d90-b020-45427d38dbd2.PNG)
