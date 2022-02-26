@@ -9,3 +9,24 @@ The project titled “Social Distancing Cap” encompasses the introduction of t
  
  ### REQUIREMENT MODELLING
  
+  Table : High level Requirements</br>
+
+|Test ID| Description| 
+|:------|:-----------|
+| H_01 | The sensor shall measure the distance between one another. | 
+| H_02 | The servo motor shall turn on if the distance is below the threshold range. |
+| H_03 | The servo motor shall turn off if the person is out of the threshold range. |
+
+Table : Low level Requirements</br>
+
+|Test ID| Description|
+|:------|:-----------|
+|L_01| The ultrasonic sensor is used to measure the distance and it is turned on using a switch.|
+|L_02| Depending upon the distance if the person is within the threshold range the motor will turn on.|
+|L_03| If no one is within the range the motor will be in a turned-off state.|
+
+### BLOCK DIAGRAM
+
+![social distancing cap](https://user-images.githubusercontent.com/42488087/155828648-7b878f04-08e3-4f3b-b00c-0ba0ef16de6e.PNG)
+
+
