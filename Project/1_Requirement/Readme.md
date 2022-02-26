@@ -1,7 +1,12 @@
-## SOCIAL DISTANCING CAP
-# REQUIREMENT MODELLING
+### ABSTRACT
+The project titled “Social Distancing Cap” encompasses the introduction of the project and after that requirement modeling and under the requirement modeling it comprises the high-level requirements and the low-level requirements after the requirements are captured then the block diagram is created and as we go on then we have added the flowchart for easy understanding of the working process of the program or workflow of the program. After the program flowchart is added then the description of the working of the model is described and also the components will be listed that are going to be used for this particular project. Lastly, the conclusion will be added like how the project is done and how can we overcome the social distancing.
+
+### DESCRIPTION
+ :dart: The main objective of this project is, during the  Covid-19 pandemic social distancing is the main aspect that we must follow to prevent the spreading of the virus. Hence this project helps us to maintain strict distance between one another.
  
- Table : High level Requirements</br>
+ ### REQUIREMENT MODELLING
+ 
+  Table : High level Requirements</br>
 
 |Test ID| Description| 
 |:------|:-----------|
@@ -19,22 +24,10 @@ Table : Low level Requirements</br>
 
 ### BLOCK DIAGRAM
 
-![social distancing cap](https://user-images.githubusercontent.com/42488087/155119437-e711f269-ef87-422a-9b32-867863a97290.PNG)
+![social distancing cap](https://user-images.githubusercontent.com/42488087/155828648-7b878f04-08e3-4f3b-b00c-0ba0ef16de6e.PNG)
+
+### SWOT ANALYSIS
 
 
-### DESCRIPTION
- :dart: The main objective of this project is, during the  Covid-19 pandemic social distancing is the main aspect that we must follow to prevent the spreading of the virus. Hence this project helps us to maintain strict distance between one another.
- 
- ### WORKING
- :dart: The ultrasonic sensor is placed on the backside of the caps, which measures the distance between the sensor and the person who stood behind us. The cap is programmed using Arduino and through which the given variable can be modified accordingly in the given specific range.</br>
- 
- :dart: If the sensor senses a person below the threshold range then it sends a signal to the controller which actuates the servo motor that is placed adjacent to the person's ear.
+![swot analysis](https://user-images.githubusercontent.com/42488087/155829132-37898af4-6e0d-4d90-b020-45427d38dbd2.PNG)
 
-## FLOWCHART
-
-
-![social distancing flowchart](https://user-images.githubusercontent.com/42488087/155679974-32b97170-5f95-4a5e-bfc9-2be1bbcca11b.PNG)
-
-
-### COMPONENTS AND THEIR USES
-:one:
