@@ -31,3 +31,6 @@ Table : Low level Requirements</br>
 
 ![swot analysis](https://user-images.githubusercontent.com/42488087/155829132-37898af4-6e0d-4d90-b020-45427d38dbd2.PNG)
 
+### WORKING
+The ultrasonic sensor is placed on the backside of the caps, which measures the distance between the sensor and the person who stood behind us. The cap is programmed using Arduino and through which the given variable can be modified accordingly in the given specific range. If the sensor senses a person below the threshold range then it sends a signal to the controller which actuates the servo motor that is placed adjacent to the person's ear.
+
